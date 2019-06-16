@@ -1,9 +1,5 @@
 import React from 'react';
-import Ham from '../../assets/images/ham.png';
-import Ham from '../../assets/images/ham.png';
-.
-.
-import{View, Text} from 'react-native';
+import{View, Text ,Image} from 'react-native';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 
 const Dashboard = ({}) => {
@@ -12,6 +8,7 @@ const Dashboard = ({}) => {
             <View>
                 <TouchableOpacity>
                     <Image ></Image>
+                    <Text>Dashboard</Text>
                 </TouchableOpacity>
             </View>
         </View>
